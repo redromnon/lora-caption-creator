@@ -31,6 +31,7 @@ def main(page: ft.Page):
                 temp_list.append(file)
 
         dir_list = temp_list
+        dir_list = sorted(dir_list)
 
     #view diff images
     def change_image_right(e):
